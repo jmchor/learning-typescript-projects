@@ -1,9 +1,11 @@
 // Please fill in any missing type annotations here...
 const headOfTable = "Me!";
-let adjacentLeft;
-let adjacentRight;
-let furtherLeft;
-let furtherRight;
+type LeftRight = "Susie" | "Tommy"
+type FurtherSeating = "Angelica" | "Chuckie" | "Kimi" | "Timmy" | undefined;
+let adjacentLeft: LeftRight;
+let adjacentRight: LeftRight;
+let furtherLeft: FurtherSeating;
+let furtherRight: FurtherSeating;
 
 // I always invite Susie and Tommy! ♥
 if (Math.random() > 0.5) {
